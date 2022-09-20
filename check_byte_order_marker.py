@@ -11,11 +11,11 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     retv = 1
 
-    # for filename in args.filenames:
+    for filename in args.filenames:
     #     with open(filename, 'rb') as f:
     #         if f.read(3) == b'\xef\xbb\xbf':
     #             retv = 1
-    #             print(f'{filename}: Has a byte-order marker')
+                print(f'{filename}: Was not committed')
 
     return retv
 
